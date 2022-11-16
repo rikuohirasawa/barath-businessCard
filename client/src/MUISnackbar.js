@@ -1,4 +1,5 @@
 import { Snackbar, Alert } from '@mui/material'
+
 export const MUISnackbar = ({emailSuccess, emailError, setEmailSuccess, setEmailError}) => {
     return (
         <>
