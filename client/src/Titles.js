@@ -11,7 +11,7 @@ export const Titles = () => {
                 <div>Chief Executive Officer</div>
                 <div>MechMonkey</div>
             </div>
-            <img src={BarathAvatar} alt='a young man in a suit standing in front of the ocean'/>
+            <img src={BarathAvatar} alt='a young man in a suit standing in front of the ocean on a sunny day'/>
         </Wrapper>
     )
 }
