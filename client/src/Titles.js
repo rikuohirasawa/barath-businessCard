@@ -17,10 +17,12 @@ export const Titles = () => {
 }
 
 const Wrapper = styled.div`
+position: relative;
 width: 100%;
-background: linear-gradient(var(--dark-orange) 50%, var(--black));
-height: 40%;
+background: linear-gradient(var(--dark-orange) 20%, var(--black));
+height: 250px;
 color: var(--black);
+margin-bottom: -80px;
 
 h1 {
     padding: 0;

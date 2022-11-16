@@ -25,7 +25,6 @@ export const ContactInfo = () => {
 }
 
 const Wrapper = styled.div`
-transform: translateY(-70px);
 width: 85%;
 display: flex;
 flex-direction: column;

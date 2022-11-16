@@ -24,6 +24,14 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100vw;
-    height: 100vh;
+    gap: 8px;
+    max-width: 450px;
+    max-height: 900px;
+
+    @media only screen and (min-width: 500px) {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     `

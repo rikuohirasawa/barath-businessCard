@@ -17,5 +17,6 @@ export const GlobalStyle = createGlobalStyle`
         background: var(--black);
         color: var(--soft-white);
         font-weight: 300;
+        max-width: 100vw;
     }
     `

@@ -18,8 +18,8 @@ export const ContactForm = ({menuOpen, setMenuOpen}) => {
 const Wrapper = styled.div`
     visibility: ${props=>(props.open ? 'visible' : 'hidden')};
     transform: translateX(${props=>props.open ? 0 : 100}vw);
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    max-height: 900px;
     position: fixed;
     top: 0px;
     bottom: 0px;

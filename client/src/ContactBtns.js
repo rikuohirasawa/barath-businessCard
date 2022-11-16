@@ -15,9 +15,10 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     margin-right: auto;
+    margin-top: 30px;
     padding: 0 40px;
     gap: 10px;
-    transform: translateY(-140px);
+
 `
 const DownloadLink = styled.a`    
     font-family: inherit;

@@ -18,7 +18,6 @@ export const Socials = () => {
 const Wrapper = styled.div`
     width: 85%;
     font-weight: 300;
-    transform: translateY(-50px);
 
     img {
         height: 30px;

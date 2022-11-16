@@ -11,14 +11,17 @@ export const About = () => {
 }
 
 const Wrapper = styled.div`
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
     font-weight: 300;
     opacity: 0.8;
     width: 85%;
-    transform: translateY(-80px);
-    
+
     .hover-btn {
     background: var(--black);
+    font-size: inherit;
     color: var(--soft-white);
     border: 1px solid var(--soft-white);
     padding: 10px 25px;
@@ -30,5 +33,7 @@ const Wrapper = styled.div`
     &:focus {
         transform: scale(1.02);
     }
+
+
 }
 `
